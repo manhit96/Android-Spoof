@@ -8,8 +8,6 @@ Giải pháp toàn diện giả mạo thông tin thiết bị Android tích hợ
 
 Android-Spoof phát triển một giải pháp để giả mạo thông tin thiết bị Android thông qua việc tích hợp trực tiếp vào mã nguồn LineageOS, tạo ra một hệ thống ổn định hơn và nhất quán hơn so với các giải pháp dựa trên hook hiện có.
 
-> **Lưu ý**: Dự án này được duy trì như một sáng kiến nghiên cứu riêng tư và không dành cho việc phân phối công khai hoặc phát hành mã nguồn mở.
-
 ## Mục tiêu
 
 - Phát triển giải pháp giả mạo thông tin thiết bị Android toàn diện
@@ -62,13 +60,20 @@ Thư mục `docs/` chứa các phân tích chuyên sâu về các dự án và c
 3. **Công việc hiện tại**: Kiểm tra tài liệu Ngữ cảnh hiện tại và Tiến độ để biết trạng thái phát triển mới nhất
 4. **Chi tiết triển khai**: Chi tiết kỹ thuật cung cấp các cách tiếp cận triển khai cụ thể
 
-## Quyền sở hữu & Phân phối
+## Cộng đồng & Đóng góp
 
-Dự án này được duy trì như một **sáng kiến riêng tư** vì những lý do sau:
+Chúng tôi chào đón đóng góp từ cộng đồng! Dự án này nhằm mục đích thúc đẩy:
 
-1. **Khả năng lạm dụng**: Công nghệ này có thể bị khai thác cho các mục đích không chính đáng như gian lận hoặc vượt qua các hạn chế bảo mật trên ứng dụng ngân hàng
-2. **Bảo mật nền tảng**: Nếu được phổ biến rộng rãi, các nhà cung cấp nền tảng sẽ nhanh chóng phát triển các biện pháp đối phó
-3. **Cân nhắc pháp lý**: Có thể có rủi ro pháp lý liên quan đến việc vượt qua các cơ chế bảo mật hệ thống
+1. **Nhận thức về quyền riêng tư**: Giúp người dùng hiểu và kiểm soát thông tin mà thiết bị của họ chia sẻ
+2. **Mục đích giáo dục**: Tìm hiểu về hệ thống nội bộ Android và cơ chế bảo mật
+3. **Nghiên cứu và phát triển**: Nâng cao hiểu biết của chúng ta về bảo mật và quyền riêng tư trên thiết bị di động
+
+### Cách đóng góp
+
+- Fork repository và gửi pull request
+- Báo cáo lỗi và đề xuất tính năng thông qua issues
+- Cải thiện tài liệu và chia sẻ cách triển khai của bạn
+- Tham gia thảo luận về quyền riêng tư và bảo mật thiết bị
 
 ### Trường hợp sử dụng hợp pháp
 
@@ -85,9 +90,8 @@ Dự án này tham khảo và phân tích các dự án sau:
 - PlayIntegrityFix
 - TrickyStore
 
-## Giấy phép & Sử dụng
+## Giấy phép
 
-Dự án này là độc quyền và bảo mật. Bảo lưu mọi quyền.
-- Không phân phối công khai hoặc phát hành mã nguồn mở
-- Chỉ truy cập và sử dụng được cấp phép
-- Chỉ dành cho mục đích nghiên cứu và giáo dục 
+Dự án này được cấp phép theo Giấy phép MIT - xem tệp [LICENSE](LICENSE) để biết chi tiết.
+
+Giấy phép MIT có nghĩa là bạn có thể tự do sử dụng, sửa đổi, phân phối và bán các sản phẩm của riêng bạn có tích hợp mã của chúng tôi, miễn là bạn bao gồm thông báo bản quyền và giấy phép gốc trong bất kỳ bản sao nào của phần mềm/mã nguồn. 

@@ -8,8 +8,6 @@ A comprehensive Android device information spoofing solution integrated directly
 
 Android-Spoof develops a solution to spoof Android device information through direct integration into LineageOS source code, creating a more stable and consistent system compared to existing hook-based solutions.
 
-> **Note**: This project is maintained as a private research initiative and is not intended for public distribution or open-source release.
-
 ## Objectives
 
 - Develop a comprehensive Android device information spoofing solution
@@ -62,13 +60,20 @@ The `docs/` directory contains in-depth analyses of relevant projects and techno
 3. **Current Work**: Check the Active Context and Progress documents for the latest development status
 4. **Implementation Details**: Technical Details provides specific implementation approaches
 
-## Ownership & Distribution
+## Community & Contribution
 
-This project is maintained as a **private initiative** for the following reasons:
+We welcome contributions from the community! This project aims to promote:
 
-1. **Potential misuse**: This technology could be exploited for illegitimate purposes like fraud or bypassing security restrictions on banking apps
-2. **Platform security**: If widely available, platform providers would quickly develop countermeasures
-3. **Legal considerations**: There could be legal risks associated with circumventing system security mechanisms
+1. **Privacy awareness**: Helping users understand and control what information their devices share
+2. **Educational purposes**: Learning about Android system internals and security mechanisms
+3. **Research and development**: Advancing our understanding of mobile security and privacy
+
+### How to Contribute
+
+- Fork the repository and submit pull requests
+- Report bugs and suggest features through issues
+- Improve documentation and share your implementations
+- Join discussions about privacy and device security
 
 ### Legitimate Use Cases
 
@@ -85,9 +90,8 @@ This project references and analyzes the following projects:
 - PlayIntegrityFix
 - TrickyStore
 
-## License & Usage
+## License
 
-This project is proprietary and confidential. All rights reserved.
-- Not for public distribution or open-source release
-- Authorized access and usage only
-- For research and educational purposes only
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+MIT License means you can freely use, modify, distribute, and sell your own products that incorporate our code, as long as you include the original copyright and license notice in any copy of the software/source code.
