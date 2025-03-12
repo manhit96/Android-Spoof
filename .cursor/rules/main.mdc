@@ -1,0 +1,89 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Android-Spoof Project Rules
+
+## Communication Rules
+1. **Vietnamese Language**: Always use Vietnamese when communicating about the project
+2. **Reference Memory Bank**: Before starting any work, always check the memory-bank to update context
+3. **Update Memory Bank**: After completing important tasks, update memory-bank to track progress
+4. **Documentation Language**: Memory Bank and core documentation will be maintained in English, original documents will be provided in both English and Vietnamese versions
+5. **Memory Bank Guidelines**: Follow Project Memory Bank guidelines ([memory_bank_guidelines.mdc](mdc:.cursor/rules/memory_bank_guidelines.mdc)) for all interactions with the project
+
+## Memory Bank Usage
+1. **Reading Memory Bank**: MUST read ALL memory bank files at the start of EVERY task
+2. **Update Process**: Update memory bank when discovering new patterns, after implementing significant changes, or when requested with "update memory bank"
+3. **Core Files**: Maintain all required core files (projectbrief.md, productContext.md, activeContext.md, systemPatterns.md, techContext.md, progress.md)
+4. **Plan Mode Workflow**: Follow the plan mode workflow when planning new tasks
+5. **Act Mode Workflow**: Follow the act mode workflow when executing tasks
+
+## Code Rules
+1. **Main Programming Languages**:
+   - Java: For framework components and system services
+   - Kotlin: For management applications and UI
+   - C/C++: For JNI components when necessary
+
+2. **Directory Structure**:
+   - `/lineageos_integration`: Contains source code for LineageOS integration
+   - `/docs`: Analysis documents and guides
+   - `/external`: Contains reference submodules
+   - `/memory-bank`: Stores project documentation and context
+
+3. **Naming Conventions**:
+   - Package: `com.android.spoof` for system components
+   - Classes: PascalCase (e.g., DeviceSpoofService)
+   - Methods: camelCase (e.g., getDeviceProperty)
+   - Constants: UPPER_SNAKE_CASE (e.g., DEFAULT_PROFILE)
+
+4. **Encoding and Comments**:
+   - Source code: UTF-8
+   - Line endings: LF
+   - Indentation: 4 spaces
+   - Comments: English for source code, Vietnamese for Vietnamese documentation
+
+## Work Process
+1. **Analyze Before Coding**: Thoroughly analyze original source code before modification
+2. **Prototype Before Integration**: Always create POCs and test separately before integrating into the system
+3. **Test Each Component**: Test each component individually before integration
+4. **Document Methods**: Record working methods in the activeContext.md file
+
+## Project Knowledge
+
+### Android Framework Understanding
+- **android.os.Build**: Main class providing device information, including brand, model, etc.
+- **SystemProperties**: API to read and override system properties
+- **TelephonyManager**: Manages mobile information, including IMEI, IMSI, etc.
+- **System Services**: System services registered through ServiceManager
+
+### Key Attestation Understanding
+- **Key Attestation**: Key authentication mechanism based on certificate chains
+- **Bootloader State**: Bootloader state is included in attestation certificate
+- **TEE (Trusted Execution Environment)**: Secure execution environment for cryptographic operations
+
+### Play Integrity Understanding
+- **Basic Integrity**: Basic check of system integrity
+- **CTS Profile Match**: Checks if device matches a CTS profile
+- **MEETS_STRONG_INTEGRITY**: Highest level of checking, including key attestation
+
+## Development Process
+1. **Phase 1: Research and Prototype**
+   - Research and analyze LineageOS source code
+   - Create POCs for key components
+
+2. **Phase 2: Core Services Development**
+   - Develop DeviceSpoofService
+   - Implement profile system
+
+3. **Phase 3: System API Modifications**
+   - Modify Android framework classes
+   - Implement key attestation spoofing
+
+4. **Phase 4: Management Application Development**
+   - Develop management application
+   - Create user interface
+
+5. **Phase 5: Testing and Optimization**
+   - Test with popular applications
+   - Optimize performance 
